@@ -10,8 +10,8 @@ import ContextProvider from '@/components/ContextProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Youtube Clone',
-  description: 'Youtube',
+  title: 'Demo',
+  description: 'a demo for a social media platform',
 };
 
 export default function RootLayout({

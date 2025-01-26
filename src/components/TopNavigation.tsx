@@ -50,7 +50,7 @@ const TopNavigation = () => {
           </span>
           <Link href='/' className='flex items-center space-x-2'>
             <Youtube size={48} className='text-red-700' />
-            <span className='hidden md:block text-2xl font-bold'>YouTube</span>
+            <span className='hidden md:block text-2xl font-bold'>BkTube</span>
           </Link>
         </div>
 
@@ -105,8 +105,8 @@ const TopNavigation = () => {
             <DropdownMenu>
               <DropdownMenuTrigger className='focus:outline-none'>
                 <Avatar>
-                  <AvatarImage src='channel_profile.jpeg' alt='codewithlari' />
-                  <AvatarFallback>AB</AvatarFallback>
+                  <AvatarImage src='logobachkhoa.png' alt='codewithlari' />
+                  <AvatarFallback>N/A</AvatarFallback>
                 </Avatar>
               </DropdownMenuTrigger>
               <DropdownMenuContent className='w-72'>
@@ -114,7 +114,7 @@ const TopNavigation = () => {
                   <div className='flex space-x-4'>
                     <Avatar>
                       <AvatarImage
-                        src='/channel_profile.jpeg'
+                        src='logobachkhoa.png'
                         alt='codewithlari'
                       />
                       <AvatarFallback>AB</AvatarFallback>
@@ -122,8 +122,8 @@ const TopNavigation = () => {
 
                     <div className='flex flex-col space-y-3 text-base'>
                       <span>
-                        <p>code with lari</p>
-                        <p>@codewithlari</p>
+                        <p>BK NCKH</p>
+                        <p>@bknckh</p>
                       </span>
                       <Link
                         href={`/channels/${process.env.NEXT_PUBLIC_CHANNEL_ID}`}
